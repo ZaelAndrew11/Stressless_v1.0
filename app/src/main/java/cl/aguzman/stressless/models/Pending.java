@@ -39,6 +39,7 @@ public class Pending extends SugarRecord {
     public void setDone(boolean done) {
         this.done = done;
     }
+
 }
 
 

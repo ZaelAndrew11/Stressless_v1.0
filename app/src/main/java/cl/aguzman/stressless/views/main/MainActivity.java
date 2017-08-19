@@ -1,4 +1,4 @@
-package cl.aguzman.stressless;
+package cl.aguzman.stressless.views.main;
 
 import android.app.Dialog;
 import android.os.Bundle;
@@ -13,6 +13,7 @@ import android.view.WindowManager;
 import android.widget.EditText;
 import android.widget.ImageButton;
 
+import cl.aguzman.stressless.R;
 import cl.aguzman.stressless.models.Pending;
 
 public class MainActivity extends AppCompatActivity {
@@ -32,7 +33,6 @@ public class MainActivity extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
                 final Dialog dialog = new Dialog(MainActivity.this);
                 dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
                 dialog.setContentView(R.layout.dialog_pending);

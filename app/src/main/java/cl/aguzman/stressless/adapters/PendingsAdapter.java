@@ -12,7 +12,6 @@ import android.widget.TextView;
 
 import java.util.List;
 
-import cl.aguzman.stressless.PendingClickListener;
 import cl.aguzman.stressless.R;
 import cl.aguzman.stressless.data.Queries;
 import cl.aguzman.stressless.models.Pending;
